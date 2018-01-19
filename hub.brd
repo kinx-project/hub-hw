@@ -1940,8 +1940,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="47K" x="23.6" y="27.7" rot="MR90"/>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100K" x="28.064" y="19.216" rot="MR0"/>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="650R 1%" x="39.794" y="33.31" rot="MR270"/>
-<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18P" x="35.739" y="33.702"/>
-<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18P" x="34.9" y="36.2"/>
+<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18P" x="35.739" y="33.702">
+<attribute name="DIGIKEY" value="1276-1089-1-ND" x="35.739" y="33.702" size="1.778" layer="27" display="off"/>
+<attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC" x="35.739" y="33.702" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18P" x="34.9" y="36.2">
+<attribute name="DIGIKEY" value="1276-1089-1-ND" x="34.9" y="36.2" size="1.778" layer="27" display="off"/>
+<attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC" x="34.9" y="36.2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="X1" library="ABLS-12.000MHZ-B2-T" package="XTAL_ABLS2-24.000MHZ-D4YF-T" value="12MHz" x="39.048" y="40.274" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="39.048" y="40.274" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="CRYSTAL 12.0000MHZ 18PF SMD" x="39.048" y="40.274" size="1.778" layer="27" rot="R90" display="off"/>

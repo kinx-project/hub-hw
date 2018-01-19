@@ -16637,8 +16637,14 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="650R 1%"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18P"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18P"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18P">
+<attribute name="DIGIKEY" value="1276-1089-1-ND"/>
+<attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC"/>
+</part>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="18P">
+<attribute name="DIGIKEY" value="1276-1089-1-ND"/>
+<attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC"/>
+</part>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="X1" library="ABLS-12.000MHZ-B2-T" deviceset="ABLS-12.000MHZ-B2-T" device="" value="12MHz">
@@ -16750,8 +16756,14 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="SUPPLY3" gate="GND" x="109.22" y="-60.96"/>
 <instance part="R3" gate="G$1" x="129.54" y="-45.72" rot="R90"/>
 <instance part="SUPPLY4" gate="GND" x="129.54" y="-68.58"/>
-<instance part="C14" gate="G$1" x="157.48" y="-53.34"/>
-<instance part="C15" gate="G$1" x="193.04" y="-53.34"/>
+<instance part="C14" gate="G$1" x="157.48" y="-53.34">
+<attribute name="DIGIKEY" x="157.48" y="-53.34" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="157.48" y="-53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C15" gate="G$1" x="193.04" y="-53.34">
+<attribute name="DIGIKEY" x="193.04" y="-53.34" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="193.04" y="-53.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY5" gate="GND" x="157.48" y="-68.58"/>
 <instance part="SUPPLY6" gate="GND" x="193.04" y="-68.58"/>
 <instance part="X1" gate="G$1" x="175.26" y="-58.42">

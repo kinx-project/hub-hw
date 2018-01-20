@@ -16873,7 +16873,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 <attribute name="OC_MOUSER" value="603-RC0805FR-0710KL"/>
 </part>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
+<attribute name="DIGIKEY" value="399-1284-1-ND"/>
+<attribute name="MPN" value="C0805C105K4RACTU"/>
+<attribute name="OC_MOUSER" value="80-C0805C105K4R"/>
+</part>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="47K">
 <attribute name="DIGIKEY" value="311-47.0KCRCT-ND"/>
 <attribute name="MPN" value="RC0805FR-0747KL"/>
@@ -16908,7 +16912,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_MOUSER" value="815-ABLS-12-B2"/>
 </part>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="EC3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="120uF">
 <attribute name="DIGIKEY" value="565-1791-ND"/>
@@ -16920,7 +16928,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="BLM21PG221SN1D"/>
 <attribute name="OC_MOUSER" value="81-BLM21P221SG"/>
 </part>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="EC2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="4.3uF">
 <attribute name="DIGIKEY" value="338-3973-1-ND"/>
 <attribute name="MPN" value="UUP1C4R7MCL1GS"/>
@@ -16936,7 +16948,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="EC4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="120uF">
 <attribute name="DIGIKEY" value="565-1791-ND"/>
@@ -16955,7 +16971,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="EC1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="10uF">
 <attribute name="DIGIKEY" value="493-16013-1-ND"/>
@@ -16963,21 +16983,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="UST1H100MDD1TE"/>
 <attribute name="OC_MOUSER" value="647-UST1H100MDD1TE"/>
 </part>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
+<attribute name="DIGIKEY" value="399-1284-1-ND"/>
+<attribute name="MPN" value="C0805C105K4RACTU"/>
+<attribute name="OC_MOUSER" value="80-C0805C105K4R"/>
+</part>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
+<attribute name="DIGIKEY" value="399-1284-1-ND"/>
+<attribute name="MPN" value="C0805C105K4RACTU"/>
+<attribute name="OC_MOUSER" value="80-C0805C105K4R"/>
+</part>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U1" library="national-semi" deviceset="LM3526-L" device="">
 <attribute name="DIGIKEY" value="LM3526MX-L/NOPBCT-ND"/>
 <attribute name="MPN" value="LM3526MX-L/NOPB"/>
 <attribute name="OC_MOUSER" value="926-LM3526MX-L/NOPB"/>
 </part>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10K">
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND"/>
@@ -17010,7 +17062,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LB1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="+3V3_1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3_4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
@@ -17022,7 +17078,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_MOUSER" value="710-61400826021"/>
 </part>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="EC5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="120uF">
 <attribute name="DIGIKEY" value="565-1791-ND"/>
@@ -17042,7 +17102,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
+<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="MPN" value="GRM21BR71H104KA01L"/>
+<attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
+</part>
 <part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="EC6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="120uF">
 <attribute name="DIGIKEY" value="565-1791-ND"/>
@@ -17061,7 +17125,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="SUPPLY33" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF">
+<attribute name="DIGIKEY" value="399-1284-1-ND"/>
+<attribute name="MPN" value="C0805C105K4RACTU"/>
+<attribute name="OC_MOUSER" value="80-C0805C105K4R"/>
+</part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 </parts>
 <sheets>
@@ -17091,7 +17159,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" x="66.04" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="OC_MOUSER" x="66.04" y="-35.56" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C13" gate="G$1" x="66.04" y="-53.34"/>
+<instance part="C13" gate="G$1" x="66.04" y="-53.34">
+<attribute name="MPN" x="66.04" y="-53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="66.04" y="-53.34" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="66.04" y="-53.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R16" gate="G$1" x="78.74" y="-55.88" rot="R90">
 <attribute name="DIGIKEY" x="78.74" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="78.74" y="-55.88" size="1.778" layer="96" rot="R90" display="off"/>
@@ -17126,7 +17198,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DIGIKEY" x="175.26" y="-58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY7" gate="GND" x="223.52" y="58.42"/>
-<instance part="C19" gate="G$1" x="261.62" y="86.36"/>
+<instance part="C19" gate="G$1" x="261.62" y="86.36">
+<attribute name="MPN" x="261.62" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="261.62" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="261.62" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY8" gate="GND" x="276.86" y="73.66"/>
 <instance part="EC3" gate="G$1" x="276.86" y="86.36">
 <attribute name="DIGIKEY" x="276.86" y="86.36" size="1.778" layer="96" display="off"/>
@@ -17138,7 +17214,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" x="269.24" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="OC_MOUSER" x="269.24" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C16" gate="G$1" x="91.44" y="76.2"/>
+<instance part="C16" gate="G$1" x="91.44" y="76.2">
+<attribute name="MPN" x="91.44" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="91.44" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="91.44" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="EC2" gate="G$1" x="114.3" y="76.2">
 <attribute name="MPN" x="114.3" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="OC_MOUSER" x="114.3" y="76.2" size="1.778" layer="96" display="off"/>
@@ -17154,7 +17234,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY11" gate="GND" x="266.7" y="35.56"/>
 <instance part="SUPPLY12" gate="GND" x="261.62" y="35.56"/>
 <instance part="SUPPLY13" gate="GND" x="246.38" y="60.96" rot="R90"/>
-<instance part="C20" gate="G$1" x="287.02" y="63.5"/>
+<instance part="C20" gate="G$1" x="287.02" y="63.5">
+<attribute name="MPN" x="287.02" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="287.02" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="287.02" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY14" gate="GND" x="302.26" y="50.8"/>
 <instance part="EC4" gate="G$1" x="302.26" y="63.5">
 <attribute name="DIGIKEY" x="302.26" y="63.5" size="1.778" layer="96" display="off"/>
@@ -17173,7 +17257,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="SUPPLY15" gate="GND" x="223.52" y="12.7"/>
 <instance part="SUPPLY16" gate="GND" x="228.6" y="12.7"/>
-<instance part="C1" gate="G$1" x="86.36" y="25.4"/>
+<instance part="C1" gate="G$1" x="86.36" y="25.4">
+<attribute name="MPN" x="86.36" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="86.36" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="86.36" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY17" gate="GND" x="68.58" y="12.7"/>
 <instance part="EC1" gate="G$1" x="68.58" y="25.4">
 <attribute name="DIGIKEY" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
@@ -17181,21 +17269,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_MOUSER" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="114.3" y="25.4"/>
-<instance part="C4" gate="G$1" x="134.62" y="25.4"/>
-<instance part="C5" gate="G$1" x="144.78" y="25.4"/>
-<instance part="C8" gate="G$1" x="175.26" y="25.4"/>
+<instance part="C2" gate="G$1" x="114.3" y="25.4">
+<attribute name="MPN" x="114.3" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="114.3" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="114.3" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="134.62" y="25.4">
+<attribute name="MPN" x="134.62" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="134.62" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="134.62" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="144.78" y="25.4">
+<attribute name="MPN" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C8" gate="G$1" x="175.26" y="25.4">
+<attribute name="MPN" x="175.26" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="175.26" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="175.26" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY18" gate="GND" x="114.3" y="12.7"/>
-<instance part="C9" gate="G$1" x="149.86" y="71.12"/>
-<instance part="C10" gate="G$1" x="165.1" y="71.12"/>
-<instance part="C11" gate="G$1" x="180.34" y="71.12"/>
+<instance part="C9" gate="G$1" x="149.86" y="71.12">
+<attribute name="MPN" x="149.86" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="149.86" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="149.86" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C10" gate="G$1" x="165.1" y="71.12">
+<attribute name="MPN" x="165.1" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="165.1" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="165.1" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="180.34" y="71.12">
+<attribute name="MPN" x="180.34" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="180.34" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="180.34" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY19" gate="GND" x="149.86" y="58.42"/>
 <instance part="U1" gate="G$1" x="10.16" y="-86.36">
 <attribute name="DIGIKEY" x="10.16" y="-86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="10.16" y="-86.36" size="1.778" layer="96" display="off"/>
 <attribute name="OC_MOUSER" x="10.16" y="-86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C17" gate="G$1" x="48.26" y="-86.36"/>
+<instance part="C17" gate="G$1" x="48.26" y="-86.36">
+<attribute name="MPN" x="48.26" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="48.26" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="48.26" y="-86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY20" gate="GND" x="48.26" y="-99.06"/>
 <instance part="R21" gate="G$1" x="-43.18" y="-71.12" rot="R90">
 <attribute name="OC_MOUSER" x="-43.18" y="-71.12" size="1.778" layer="96" rot="R90" display="off"/>
@@ -17228,7 +17348,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LB1" gate="G$1" x="63.5" y="73.66"/>
 <instance part="+3V3_1" gate="G$1" x="68.58" y="48.26"/>
 <instance part="+3V3_4" gate="G$1" x="149.86" y="93.98"/>
-<instance part="C12" gate="G$1" x="193.04" y="71.12"/>
+<instance part="C12" gate="G$1" x="193.04" y="71.12">
+<attribute name="MPN" x="193.04" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="193.04" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="193.04" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY25" gate="GND" x="12.7" y="48.26" rot="R180"/>
 <instance part="P+1" gate="1" x="86.36" y="48.26"/>
 <instance part="P+2" gate="1" x="114.3" y="48.26"/>
@@ -17240,7 +17364,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_MOUSER" x="236.22" y="-48.26" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY27" gate="GND" x="231.14" y="-55.88"/>
-<instance part="C21" gate="G$1" x="269.24" y="-27.94"/>
+<instance part="C21" gate="G$1" x="269.24" y="-27.94">
+<attribute name="MPN" x="269.24" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="269.24" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="269.24" y="-27.94" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY28" gate="GND" x="284.48" y="-40.64"/>
 <instance part="EC5" gate="G$1" x="284.48" y="-27.94">
 <attribute name="DIGIKEY" x="284.48" y="-27.94" size="1.778" layer="96" display="off"/>
@@ -17260,7 +17388,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY29" gate="GND" x="274.32" y="-78.74"/>
 <instance part="SUPPLY30" gate="GND" x="269.24" y="-78.74"/>
 <instance part="SUPPLY31" gate="GND" x="254" y="-53.34" rot="R90"/>
-<instance part="C22" gate="G$1" x="294.64" y="-50.8"/>
+<instance part="C22" gate="G$1" x="294.64" y="-50.8">
+<attribute name="MPN" x="294.64" y="-50.8" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="294.64" y="-50.8" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="294.64" y="-50.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY32" gate="GND" x="309.88" y="-63.5"/>
 <instance part="EC6" gate="G$1" x="309.88" y="-50.8">
 <attribute name="DIGIKEY" x="309.88" y="-50.8" size="1.778" layer="96" display="off"/>
@@ -17279,7 +17411,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="SUPPLY33" gate="GND" x="231.14" y="-101.6"/>
 <instance part="SUPPLY34" gate="GND" x="236.22" y="-101.6"/>
-<instance part="C3" gate="G$1" x="154.94" y="25.4"/>
+<instance part="C3" gate="G$1" x="154.94" y="25.4">
+<attribute name="MPN" x="154.94" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="154.94" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="154.94" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FRAME1" gate="G$1" x="-66.04" y="-142.24"/>
 </instances>
 <busses>

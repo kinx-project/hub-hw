@@ -1980,11 +1980,27 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="CY7C65634-48AXCT" x="32.2" y="28" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_MOUSER" value="727-CY7C65634-48AXCT" x="32.2" y="28" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10K" x="21.5" y="27.7" rot="MR270"/>
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10K" x="21.5" y="27.7" rot="MR270">
+<attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="21.5" y="27.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0805FR-0710KL" x="21.5" y="27.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_MOUSER" value="603-RC0805FR-0710KL" x="21.5" y="27.7" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF" x="19.4" y="27.7" rot="MR270"/>
-<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="47K" x="23.6" y="27.7" rot="MR90"/>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100K" x="28.064" y="19.216" rot="MR0"/>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="650R 1%" x="39.794" y="33.31" rot="MR270"/>
+<element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="47K" x="23.6" y="27.7" rot="MR90">
+<attribute name="DIGIKEY" value="311-47.0KCRCT-ND" x="23.6" y="27.7" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0805FR-0747KL" x="23.6" y="27.7" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_MOUSER" value="603-RC0805FR-0747KL" x="23.6" y="27.7" size="1.778" layer="28" rot="MR90" display="off"/>
+</element>
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100K" x="28.064" y="19.216" rot="MR0">
+<attribute name="DIGIKEY" value="311-100KCRCT-ND" x="28.064" y="19.216" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0805FR-07100KL" x="28.064" y="19.216" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_MOUSER" value="603-RC0805FR-07100KL" x="28.064" y="19.216" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="650R 1%" x="39.794" y="33.31" rot="MR270">
+<attribute name="DIGIKEY" value="P649HCT-ND" x="39.794" y="33.31" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="ERJ-6ENF6490V" x="39.794" y="33.31" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_MOUSER" value="667-ERJ-6ENF6490V" x="39.794" y="33.31" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
 <element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18P" x="35.943" y="33.982">
 <attribute name="DIGIKEY" value="1276-1089-1-ND" x="35.943" y="33.982" size="1.778" layer="27" display="off"/>
 <attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC" x="35.943" y="33.982" size="1.778" layer="27" display="off"/>
@@ -2068,10 +2084,26 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_MOUSER" value="926-LM3526MX-L/NOPB" x="55.4" y="6.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="61.342" y="2.888" rot="R180"/>
-<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10K" x="45.9" y="8.2" rot="R90"/>
-<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100K" x="39.948" y="5.625" rot="R90"/>
-<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100K" x="48.986" y="9.457" rot="R90"/>
-<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10K" x="43" y="6.922" rot="R90"/>
+<element name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10K" x="45.9" y="8.2" rot="R90">
+<attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="45.9" y="8.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-0710KL" x="45.9" y="8.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="603-RC0805FR-0710KL" x="45.9" y="8.2" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100K" x="39.948" y="5.625" rot="R90">
+<attribute name="DIGIKEY" value="311-100KCRCT-ND" x="39.948" y="5.625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-07100KL" x="39.948" y="5.625" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="603-RC0805FR-07100KL" x="39.948" y="5.625" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100K" x="48.986" y="9.457" rot="R90">
+<attribute name="DIGIKEY" value="311-100KCRCT-ND" x="48.986" y="9.457" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-07100KL" x="48.986" y="9.457" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="603-RC0805FR-07100KL" x="48.986" y="9.457" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10K" x="43" y="6.922" rot="R90">
+<attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="43" y="6.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0805FR-0710KL" x="43" y="6.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="603-RC0805FR-0710KL" x="43" y="6.922" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="TSUP3" library="sn65220_40" package="SOT23-6" value="SN65220DBV" x="47.9" y="19.9" rot="R270">
 <attribute name="DIGIKEY" value="296-9694-1-ND" x="47.9" y="19.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SN65220DBVR" x="47.9" y="19.9" size="1.778" layer="27" rot="R270" display="off"/>

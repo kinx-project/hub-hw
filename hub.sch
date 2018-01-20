@@ -51,6 +51,9 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -76,17 +79,29 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="tGTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="bGTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
@@ -120,9 +135,12 @@
 <layer number="229" name="229bmp" color="30" fill="10" visible="no" active="yes"/>
 <layer number="230" name="230bmp" color="31" fill="10" visible="no" active="yes"/>
 <layer number="231" name="231bmp" color="32" fill="10" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -16607,6 +16625,217 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
+<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
+This library contains capacitors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="CPOL-RADIAL-2.5MM-6.5MM" urn="urn:adsk.eagle:footprint:37391/1" library_version="1">
+<description>2.5 mm spaced PTHs with 6.5 mm diameter outline</description>
+<wire x1="-0.635" y1="1.778" x2="-1.905" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.778" x2="0.635" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="2.413" x2="1.27" y2="1.143" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="3.25" width="0.2032" layer="21"/>
+<pad name="2" x="-1.25" y="0" drill="0.7" diameter="1.651"/>
+<pad name="1" x="1.25" y="0" drill="0.7" diameter="1.651" shape="square"/>
+<text x="0" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<text x="0" y="3.429" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+</package>
+<package name="EIA7343" urn="urn:adsk.eagle:footprint:37390/1" library_version="1">
+<description>EIA 7343 tantalum capacitor</description>
+<wire x1="-5" y1="2.5" x2="-2" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-5" y1="2.5" x2="-5" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-5" y1="-2.5" x2="-2" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="2" y1="2.5" x2="4" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="2.5" x2="5" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="5" y1="1.5" x2="5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="5" y1="-1.5" x2="4" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-2.5" x2="2" y2="-2.5" width="0.2032" layer="21"/>
+<smd name="C" x="-3.17" y="0" dx="2.55" dy="2.7" layer="1" rot="R180"/>
+<smd name="A" x="3.17" y="0" dx="2.55" dy="2.7" layer="1" rot="R180"/>
+<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="NIC_10X10.5_CAP" urn="urn:adsk.eagle:footprint:37392/1" library_version="1">
+<description>Some old package in our library</description>
+<smd name="+" x="4.5" y="0" dx="4.5" dy="2.5" layer="1"/>
+<smd name="-" x="-4.5" y="0" dx="4.5" dy="2.5" layer="1"/>
+<wire x1="-5.5" y1="-5.5" x2="3.5" y2="-5.5" width="0.2032" layer="21"/>
+<wire x1="-5.5" y1="5.5" x2="3.5" y2="5.5" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="5.5" x2="5.5" y2="3.5" width="0.2032" layer="21"/>
+<wire x1="5.5" y1="-3.5" x2="3.5" y2="-5.5" width="0.2032" layer="21"/>
+<wire x1="-4.826" y1="1.524" x2="4.826" y2="1.397" width="0.2032" layer="21" curve="-147.716211"/>
+<wire x1="-4.826" y1="-1.524" x2="4.826" y2="-1.397" width="0.2032" layer="21" curve="147.716211"/>
+<wire x1="5.5" y1="3.5" x2="5.5" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="5.5" y1="-3.5" x2="5.5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-5.5" y1="-5.5" x2="-5.5" y2="-1.5" width="0.2032" layer="21"/>
+<wire x1="-5.5" y1="1.5" x2="-5.5" y2="5.5" width="0.2032" layer="21"/>
+<text x="0" y="5.715" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.715" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="PANASONIC_D" urn="urn:adsk.eagle:footprint:37384/1" library_version="1">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E&lt;/b&gt;</description>
+<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="1.55" x2="3.25" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="-3.25" y1="0.95" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="1.55" x2="3.25" y2="0.95" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-0.95" x2="3.25" y2="-1.55" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="2.95" y1="0.95" x2="-2.95" y2="0.95" width="0.1016" layer="21" curve="144.299363"/>
+<wire x1="-2.95" y1="-0.95" x2="2.95" y2="-0.95" width="0.1016" layer="21" curve="144.299363"/>
+<wire x1="-2.1" y1="2.25" x2="-2.1" y2="-2.2" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="3.1" width="0.1016" layer="51"/>
+<smd name="+" x="2.4" y="0" dx="3" dy="1.4" layer="1"/>
+<smd name="-" x="-2.4" y="0" dx="3" dy="1.4" layer="1"/>
+<text x="0" y="3.429" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.429" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-0.35" x2="-3.05" y2="0.35" layer="51"/>
+<rectangle x1="3.05" y1="-0.35" x2="3.65" y2="0.35" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.15" y="2.15"/>
+<vertex x="-2.6" y="1.6"/>
+<vertex x="-2.9" y="0.9"/>
+<vertex x="-3.05" y="0"/>
+<vertex x="-2.9" y="-0.95"/>
+<vertex x="-2.55" y="-1.65"/>
+<vertex x="-2.15" y="-2.15"/>
+<vertex x="-2.15" y="2.1"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="CPOL-RADIAL-2.5MM-6.5MM" urn="urn:adsk.eagle:package:37415/1" type="box" library_version="1">
+<description>2.5 mm spaced PTHs with 6.5 mm diameter outline</description>
+</package3d>
+<package3d name="EIA7343" urn="urn:adsk.eagle:package:37416/1" type="box" library_version="1">
+<description>EIA 7343 tantalum capacitor</description>
+</package3d>
+<package3d name="NIC_10X10.5_CAP" urn="urn:adsk.eagle:package:37417/1" type="box" library_version="1">
+<description>Some old package in our library</description>
+</package3d>
+<package3d name="PANASONIC_D" urn="urn:adsk.eagle:package:37420/1" type="box" library_version="1">
+<description>Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E</description>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CAP_POL" urn="urn:adsk.eagle:symbol:37382/1" library_version="1">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
+<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
+<text x="1.016" y="0.635" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="100UF-POLAR" urn="urn:adsk.eagle:component:37471/1" prefix="C" library_version="1">
+<description>&lt;h3&gt;100µF polarized capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-EIA7343-10V-10%(TANT)" package="EIA7343">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37416/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-07890"/>
+<attribute name="VALUE" value="100uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-EIA7343-16V-10%(TANT)" package="EIA7343">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37416/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08702"/>
+<attribute name="VALUE" value="100uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL-2.5MM-25V-20%" package="CPOL-RADIAL-2.5MM-6.5MM">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37415/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08439"/>
+<attribute name="VALUE" value="100uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-10X10.5-63V-20%" package="NIC_10X10.5_CAP">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37417/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08362"/>
+<attribute name="VALUE" value="100uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-25V-20%(ELEC)" package="PANASONIC_D">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37420/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12547" constant="no"/>
+<attribute name="VALUE" value="100uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16622,9 +16851,14 @@ DIN A3, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="J1" library="InputOutputIO (rev17e)" deviceset="61400826021" device=""/>
+<part name="J1" library="InputOutputIO (rev17e)" deviceset="61400826021" device="">
+<attribute name="DIGIKEY" value="732-2107-ND"/>
+<attribute name="MPN" value="61400826021"/>
+<attribute name="OC_MOUSER" value="710-61400826021"/>
+</part>
 <part name="J2" library="Wire-to-Board (rev17c)" deviceset="62000711622" device=""/>
 <part name="U$1" library="CY7C65634-48AXCT" deviceset="CY7C65634-48AXCT" device="">
+<attribute name="DIGIKEY" value="428-3153-1-ND"/>
 <attribute name="MPN" value="CY7C65634-48AXCT"/>
 <attribute name="OC_MOUSER" value="727-CY7C65634-48AXCT"/>
 </part>
@@ -16655,13 +16889,18 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="EC3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="120uF">
-<attribute name="MPN" value="EEF-CD0D121R"/>
-<attribute name="OC_MOUSER" value="667-EEF-CD0D121R"/>
+<part name="EC3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="120uF">
+<attribute name="DIGIKEY" value="565-1791-ND"/>
+<attribute name="MPN" value="ELXY250ELL121MF15D"/>
+<attribute name="OC_MOUSER" value="661-ELXY250ELL121MF1"/>
 </part>
 <part name="LB2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="EC2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="4.3uF"/>
+<part name="EC2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="4.3uF">
+<attribute name="DIGIKEY" value="338-3973-1-ND"/>
+<attribute name="MPN" value="UUP1C4R7MCL1GS"/>
+<attribute name="OC_MOUSER" value="647-UUP1C4R7MCL1GS"/>
+</part>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="IC1" library="sn65220_40" deviceset="SN65220" device="DBV"/>
@@ -16670,9 +16909,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="EC4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="120uF">
-<attribute name="MPN" value="EEF-CD0D121R"/>
-<attribute name="OC_MOUSER" value="667-EEF-CD0D121R"/>
+<part name="EC4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="120uF">
+<attribute name="DIGIKEY" value="565-1791-ND"/>
+<attribute name="MPN" value="ELXY250ELL121MF15D"/>
+<attribute name="OC_MOUSER" value="661-ELXY250ELL121MF1"/>
 </part>
 <part name="LB3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="IC2" library="sn65220_40" deviceset="SN65220" device="DBV"/>
@@ -16680,7 +16920,11 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="EC1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="10uF"/>
+<part name="EC1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="10uF">
+<attribute name="DIGIKEY" value="PCE3878CT-ND"/>
+<attribute name="MPN" value="EEE-1CA100SR"/>
+<attribute name="OC_MOUSER" value="667-EEE-1CA100SR"/>
+</part>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
@@ -16690,7 +16934,11 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U1" library="national-semi" deviceset="LM3526-L" device=""/>
+<part name="U1" library="national-semi" deviceset="LM3526-L" device="">
+<attribute name="DIGIKEY" value="LM3526MX-L/NOPBCT-ND"/>
+<attribute name="MPN" value="LM3526MX-L/NOPB"/>
+<attribute name="OC_MOUSER" value="926-LM3526MX-L/NOPB"/>
+</part>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10K"/>
@@ -16710,13 +16958,18 @@ DIN A3, landscape with location and doc. field</description>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="LB6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J3" library="InputOutputIO (rev17e)" deviceset="61400826021" device=""/>
+<part name="J3" library="InputOutputIO (rev17e)" deviceset="61400826021" device="">
+<attribute name="DIGIKEY" value="732-2107-ND"/>
+<attribute name="MPN" value="61400826021"/>
+<attribute name="OC_MOUSER" value="710-61400826021"/>
+</part>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="EC5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="120uF">
-<attribute name="MPN" value="EEF-CD0D121R"/>
-<attribute name="OC_MOUSER" value="667-EEF-CD0D121R"/>
+<part name="EC5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="120uF">
+<attribute name="DIGIKEY" value="565-1791-ND"/>
+<attribute name="MPN" value="ELXY250ELL121MF15D"/>
+<attribute name="OC_MOUSER" value="661-ELXY250ELL121MF1"/>
 </part>
 <part name="LB4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="IC4" library="sn65220_40" deviceset="SN65220" device="DBV"/>
@@ -16725,9 +16978,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY32" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="EC6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="120uF">
-<attribute name="MPN" value="EEF-CD0D121R"/>
-<attribute name="OC_MOUSER" value="667-EEF-CD0D121R"/>
+<part name="EC6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="120uF">
+<attribute name="DIGIKEY" value="565-1791-ND"/>
+<attribute name="MPN" value="ELXY250ELL121MF15D"/>
+<attribute name="OC_MOUSER" value="661-ELXY250ELL121MF1"/>
 </part>
 <part name="LB5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="IC5" library="sn65220_40" deviceset="SN65220" device="DBV"/>
@@ -16741,11 +16995,16 @@ DIN A3, landscape with location and doc. field</description>
 <plain>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="228.6" y="66.04" rot="R270"/>
+<instance part="J1" gate="G$1" x="228.6" y="66.04" rot="R270">
+<attribute name="DIGIKEY" x="228.6" y="66.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="228.6" y="66.04" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="OC_MOUSER" x="228.6" y="66.04" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="J2" gate="G$1" x="48.26" y="88.9"/>
 <instance part="U$1" gate="G$1" x="0" y="0">
 <attribute name="MPN" x="0" y="0" size="1.778" layer="96" display="off"/>
 <attribute name="OC_MOUSER" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="-15.24" y="-55.88"/>
 <instance part="R1" gate="G$1" x="66.04" y="-35.56" rot="R90"/>
@@ -16775,12 +17034,17 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="C19" gate="G$1" x="261.62" y="86.36"/>
 <instance part="SUPPLY8" gate="GND" x="276.86" y="73.66"/>
 <instance part="EC3" gate="G$1" x="276.86" y="86.36">
-<attribute name="OC_MOUSER" x="276.86" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="276.86" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="276.86" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="276.86" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LB2" gate="G$1" x="269.24" y="91.44"/>
 <instance part="C16" gate="G$1" x="91.44" y="76.2"/>
-<instance part="EC2" gate="G$1" x="114.3" y="76.2"/>
+<instance part="EC2" gate="G$1" x="114.3" y="76.2">
+<attribute name="MPN" x="114.3" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="114.3" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="114.3" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY9" gate="GND" x="91.44" y="63.5"/>
 <instance part="SUPPLY10" gate="GND" x="114.3" y="63.5"/>
 <instance part="IC1" gate="G$1" x="264.16" y="48.26" rot="R90"/>
@@ -16790,8 +17054,9 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="C20" gate="G$1" x="287.02" y="63.5"/>
 <instance part="SUPPLY14" gate="GND" x="302.26" y="50.8"/>
 <instance part="EC4" gate="G$1" x="302.26" y="63.5">
-<attribute name="OC_MOUSER" x="302.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY" x="302.26" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="302.26" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="302.26" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LB3" gate="G$1" x="294.64" y="68.58"/>
 <instance part="IC2" gate="G$1" x="226.06" y="25.4" rot="R90"/>
@@ -16799,7 +17064,11 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="SUPPLY16" gate="GND" x="228.6" y="12.7"/>
 <instance part="C1" gate="G$1" x="86.36" y="25.4"/>
 <instance part="SUPPLY17" gate="GND" x="68.58" y="12.7"/>
-<instance part="EC1" gate="G$1" x="68.58" y="25.4"/>
+<instance part="EC1" gate="G$1" x="68.58" y="25.4">
+<attribute name="DIGIKEY" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C2" gate="G$1" x="114.3" y="25.4"/>
 <instance part="C4" gate="G$1" x="134.62" y="25.4"/>
 <instance part="C5" gate="G$1" x="144.78" y="25.4"/>
@@ -16809,7 +17078,11 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="C10" gate="G$1" x="165.1" y="71.12"/>
 <instance part="C11" gate="G$1" x="180.34" y="71.12"/>
 <instance part="SUPPLY19" gate="GND" x="149.86" y="58.42"/>
-<instance part="U1" gate="G$1" x="10.16" y="-86.36"/>
+<instance part="U1" gate="G$1" x="10.16" y="-86.36">
+<attribute name="DIGIKEY" x="10.16" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="10.16" y="-86.36" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="10.16" y="-86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C17" gate="G$1" x="48.26" y="-86.36"/>
 <instance part="SUPPLY20" gate="GND" x="48.26" y="-99.06"/>
 <instance part="R21" gate="G$1" x="-43.18" y="-71.12" rot="R90"/>
@@ -16829,11 +17102,16 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="P+2" gate="1" x="114.3" y="48.26"/>
 <instance part="LB6" gate="G$1" x="78.74" y="30.48"/>
 <instance part="SUPPLY26" gate="GND" x="48.26" y="-10.16" rot="R90"/>
-<instance part="J3" gate="G$1" x="236.22" y="-48.26" rot="R270"/>
+<instance part="J3" gate="G$1" x="236.22" y="-48.26" rot="R270">
+<attribute name="DIGIKEY" x="236.22" y="-48.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="236.22" y="-48.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="OC_MOUSER" x="236.22" y="-48.26" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="SUPPLY27" gate="GND" x="231.14" y="-55.88"/>
 <instance part="C21" gate="G$1" x="269.24" y="-27.94"/>
 <instance part="SUPPLY28" gate="GND" x="284.48" y="-40.64"/>
 <instance part="EC5" gate="G$1" x="284.48" y="-27.94">
+<attribute name="DIGIKEY" x="284.48" y="-27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="284.48" y="-27.94" size="1.778" layer="96" display="off"/>
 <attribute name="OC_MOUSER" x="284.48" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
@@ -16845,6 +17123,7 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="C22" gate="G$1" x="294.64" y="-50.8"/>
 <instance part="SUPPLY32" gate="GND" x="309.88" y="-63.5"/>
 <instance part="EC6" gate="G$1" x="309.88" y="-50.8">
+<attribute name="DIGIKEY" x="309.88" y="-50.8" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="309.88" y="-50.8" size="1.778" layer="96" display="off"/>
 <attribute name="OC_MOUSER" x="309.88" y="-50.8" size="1.778" layer="96" display="off"/>
 </instance>

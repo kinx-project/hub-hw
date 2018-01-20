@@ -2007,7 +2007,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-08439" x="59.7" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100uF" x="59.7" y="13.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LB2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="62.977" y="28.718" rot="R270"/>
+<element name="LB2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="62.977" y="28.718" rot="R270">
+<attribute name="DIGIKEY" value="490-1054-1-ND" x="62.977" y="28.718" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BLM21PG221SN1D" x="62.977" y="28.718" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_MOUSER" value="81-BLM21P221SG" x="62.977" y="28.718" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="47.608" y="14.741"/>
 <element name="EC2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="UD-5X5,8_NICHICON" package3d_urn="urn:adsk.eagle:package:23470/1" value="4.3uF" x="42.4" y="19" rot="R270">
 <attribute name="DIGIKEY" value="338-3973-1-ND" x="42.4" y="19" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2023,7 +2027,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-08439" x="59.5" y="22.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100uF" x="59.5" y="22.2" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LB3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="58.565" y="26.512"/>
+<element name="LB3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="58.565" y="26.512">
+<attribute name="DIGIKEY" value="490-1054-1-ND" x="58.565" y="26.512" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="BLM21PG221SN1D" x="58.565" y="26.512" size="1.778" layer="27" display="off"/>
+<attribute name="OC_MOUSER" value="81-BLM21P221SG" x="58.565" y="26.512" size="1.778" layer="27" display="off"/>
+</element>
 <element name="IC2" library="sn65220_40" package="SOT23-6" value="SN65220DBV" x="43.248" y="38.338" rot="R270"/>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="30.996" y="34.976" rot="MR0"/>
 <element name="EC1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CPOL-RADIAL-2.5MM-6.5MM" package3d_urn="urn:adsk.eagle:package:37415/1" value="10uF" x="28.392" y="39.132">
@@ -2068,7 +2076,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-08439" x="27.1" y="11.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="100uF" x="27.1" y="11.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LB4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="22.5" y="8.53" rot="R90"/>
+<element name="LB4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="22.5" y="8.53" rot="R90">
+<attribute name="DIGIKEY" value="490-1054-1-ND" x="22.5" y="8.53" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="BLM21PG221SN1D" x="22.5" y="8.53" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="81-BLM21P221SG" x="22.5" y="8.53" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="IC4" library="sn65220_40" package="SOT23-6" value="SN65220DBV" x="9.817" y="20.127" rot="R180"/>
 <element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="19.588" y="2.742" rot="R90"/>
 <element name="EC6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CPOL-RADIAL-2.5MM-6.5MM" package3d_urn="urn:adsk.eagle:package:37415/1" value="120uF" x="27" y="3.7" rot="R180">
@@ -2078,7 +2090,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-08439" x="27" y="3.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="100uF" x="27" y="3.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LB5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="22.569" y="2.742" rot="R90"/>
+<element name="LB5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="22.569" y="2.742" rot="R90">
+<attribute name="DIGIKEY" value="490-1054-1-ND" x="22.569" y="2.742" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="BLM21PG221SN1D" x="22.569" y="2.742" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="81-BLM21P221SG" x="22.569" y="2.742" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="IC5" library="sn65220_40" package="SOT23-6" value="SN65220DBV" x="21.174" y="13.664" rot="R180"/>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF" x="37.2" y="27.3" rot="MR180"/>
 </elements>

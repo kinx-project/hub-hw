@@ -16920,10 +16920,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="EC1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="UD-5X5,8" package3d_urn="urn:adsk.eagle:package:23470/1" value="10uF">
-<attribute name="DIGIKEY" value="PCE3878CT-ND"/>
-<attribute name="MPN" value="EEE-1CA100SR"/>
-<attribute name="OC_MOUSER" value="667-EEE-1CA100SR"/>
+<part name="EC1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="100UF-POLAR" device="-RADIAL-2.5MM-25V-20%" package3d_urn="urn:adsk.eagle:package:37415/1" value="10uF">
+<attribute name="DIGIKEY" value="493-16013-1-ND"/>
+<attribute name="MF" value="nichicon"/>
+<attribute name="MPN" value="UST1H100MDD1TE"/>
+<attribute name="OC_MOUSER" value="647-UST1H100MDD1TE"/>
 </part>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
@@ -17068,6 +17069,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DIGIKEY" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="OC_MOUSER" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="114.3" y="25.4"/>
 <instance part="C4" gate="G$1" x="134.62" y="25.4"/>

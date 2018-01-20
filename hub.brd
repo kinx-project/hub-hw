@@ -2026,10 +2026,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="LB3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="58.565" y="26.512"/>
 <element name="IC2" library="sn65220_40" package="SOT23-6" value="SN65220DBV" x="43.248" y="38.338" rot="R270"/>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="30.996" y="34.976" rot="MR0"/>
-<element name="EC1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="UD-5X5,8_NICHICON" package3d_urn="urn:adsk.eagle:package:23470/1" value="10uF" x="28.392" y="39.132">
-<attribute name="DIGIKEY" value="PCE3878CT-ND" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="EEE-1CA100SR" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
-<attribute name="OC_MOUSER" value="667-EEE-1CA100SR" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
+<element name="EC1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CPOL-RADIAL-2.5MM-6.5MM" package3d_urn="urn:adsk.eagle:package:37415/1" value="10uF" x="28.392" y="39.132">
+<attribute name="DIGIKEY" value="493-16013-1-ND" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="nichicon" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="UST1H100MDD1TE" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
+<attribute name="OC_MOUSER" value="647-UST1H100MDD1TE" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="CAP-08439" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="100uF" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF" x="31.7" y="32.1" rot="MR0"/>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="37.252" y="25.2" rot="MR180"/>
@@ -2103,7 +2106,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="EC4" pad="2"/>
 <contactref element="IC2" pad="5"/>
 <contactref element="IC2" pad="2"/>
-<contactref element="EC1" pad="-"/>
+<contactref element="EC1" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C4" pad="2"/>
@@ -2280,7 +2283,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="0.6" y="7.2" extent="1-16" drill="0.3"/>
 <via x="0.6" y="4.9" extent="1-16" drill="0.3"/>
 <via x="0.6" y="2.5" extent="1-16" drill="0.3"/>
-<wire x1="26.692" y1="39.132" x2="26.66" y2="39.1" width="0.4" layer="1"/>
+<wire x1="27.142" y1="39.132" x2="26.66" y2="39.1" width="0.4" layer="1"/>
 <wire x1="26.66" y1="39.1" x2="25.1" y2="39.1" width="0.4" layer="1"/>
 <via x="25.1" y="39.1" extent="1-16" drill="0.2"/>
 <via x="47.9" y="51.1" extent="1-16" drill="0.3"/>
@@ -2753,7 +2756,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="59.515" y1="23.465" x2="59.515" y2="26.512" width="0.4" layer="1"/>
 </signal>
 <signal name="+3V3">
-<contactref element="EC1" pad="+"/>
+<contactref element="EC1" pad="1"/>
 <contactref element="U$1" pad="48"/>
 <contactref element="R21" pad="2"/>
 <contactref element="R22" pad="2"/>
@@ -2814,7 +2817,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="26.3" y="26.2" extent="1-16" drill="0.2"/>
 <wire x1="26.3" y1="26.2" x2="26.114" y2="26.014" width="0.4" layer="16"/>
 <wire x1="26.114" y1="26.014" x2="26.114" y2="25.386" width="0.2" layer="16"/>
-<wire x1="30.117" y1="39.132" x2="28.632" y2="39.132" width="0.4" layer="1"/>
+<wire x1="29.642" y1="39.132" x2="28.632" y2="39.132" width="0.4" layer="1"/>
 <wire x1="28.632" y1="39.132" x2="28.4" y2="38.9" width="0.4" layer="1"/>
 <via x="28.4" y="38.9" extent="1-16" drill="0.2"/>
 <wire x1="28.4" y1="38.9" x2="28.4" y2="37.3" width="0.4" layer="16"/>

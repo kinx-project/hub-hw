@@ -2007,10 +2007,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18P" x="35.943" y="33.982">
 <attribute name="DIGIKEY" value="1276-1089-1-ND" x="35.943" y="33.982" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL10C180JB8NNNC" x="35.943" y="33.982" size="1.778" layer="27" display="off"/>
 <attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC" x="35.943" y="33.982" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18P" x="35.2" y="36.6">
 <attribute name="DIGIKEY" value="1276-1089-1-ND" x="35.2" y="36.6" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL10C180JB8NNNC" x="35.2" y="36.6" size="1.778" layer="27" display="off"/>
 <attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC" x="35.2" y="36.6" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X1" library="ABLS-12.000MHZ-B2-T" package="XTAL_ABLS2-24.000MHZ-D4YF-T" value="12MHz" x="39.048" y="40.274" rot="R90">
@@ -2161,13 +2163,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="SN65220DBVR" x="47.9" y="19.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_MOUSER" value="595-SN65220DBVR" x="47.9" y="19.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LB1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="47.5" y="16.9" rot="R180"/>
+<element name="LB1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="47.5" y="16.9" rot="R180">
+<attribute name="DIGIKEY" value="490-1054-1-ND" x="47.5" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="BLM21PG221SN1D" x="47.5" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_MOUSER" value="81-BLM21P221SG" x="47.5" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="28.064" y="21.504" rot="MR0">
 <attribute name="DIGIKEY" value="490-1666-1-ND" x="28.064" y="21.504" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="28.064" y="21.504" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="28.064" y="21.504" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="LB6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="31.006" y="37.026" rot="MR180"/>
+<element name="LB6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="31.006" y="37.026" rot="MR180">
+<attribute name="DIGIKEY" value="490-1054-1-ND" x="31.006" y="37.026" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="BLM21PG221SN1D" x="31.006" y="37.026" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="OC_MOUSER" value="81-BLM21P221SG" x="31.006" y="37.026" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="J3" library="InputOutputIO (rev17e)" package="61400826021" value="" x="9.9" y="10.5">
 <attribute name="DIGIKEY" value="732-2107-ND" x="9.9" y="10.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="61400826021" x="9.9" y="10.5" size="1.778" layer="27" display="off"/>

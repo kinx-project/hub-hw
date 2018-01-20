@@ -16856,7 +16856,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="61400826021"/>
 <attribute name="OC_MOUSER" value="710-61400826021"/>
 </part>
-<part name="J2" library="Wire-to-Board (rev17c)" deviceset="62000711622" device=""/>
+<part name="J2" library="Wire-to-Board (rev17c)" deviceset="62000711622" device="">
+<attribute name="DIGIKEY" value="A100039-ND"/>
+<attribute name="MF" value="te"/>
+<attribute name="MPN" value="440054-7"/>
+<attribute name="OC_MOUSER" value="571-440054-7"/>
+</part>
 <part name="U$1" library="CY7C65634-48AXCT" deviceset="CY7C65634-48AXCT" device="">
 <attribute name="DIGIKEY" value="428-3153-1-ND"/>
 <attribute name="MPN" value="CY7C65634-48AXCT"/>
@@ -17017,7 +17022,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" x="228.6" y="66.04" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="OC_MOUSER" x="228.6" y="66.04" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="J2" gate="G$1" x="48.26" y="88.9"/>
+<instance part="J2" gate="G$1" x="48.26" y="88.9">
+<attribute name="DIGIKEY" x="48.26" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="48.26" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="48.26" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="OC_MOUSER" x="48.26" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$1" gate="G$1" x="0" y="0">
 <attribute name="MPN" x="0" y="0" size="1.778" layer="96" display="off"/>
 <attribute name="OC_MOUSER" x="0" y="0" size="1.778" layer="96" display="off"/>

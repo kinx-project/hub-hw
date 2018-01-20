@@ -1969,7 +1969,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="61400826021" x="54.3" y="41.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_MOUSER" value="710-61400826021" x="54.3" y="41.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J2" library="Wire-to-Board (rev17c)" package="62000711622" value="" x="52.2" y="18.9" rot="R270"/>
+<element name="J2" library="Wire-to-Board (rev17c)" package="62000711622" value="" x="52.2" y="18.9" rot="R270">
+<attribute name="DIGIKEY" value="A100039-ND" x="52.2" y="18.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="te" x="52.2" y="18.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="440054-7" x="52.2" y="18.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_MOUSER" value="571-440054-7" x="52.2" y="18.9" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="U$1" library="CY7C65634-48AXCT" package="TQFP48_7X7" value="CY7C65634-48AXCT" x="32.2" y="28" rot="R90">
 <attribute name="DIGIKEY" value="428-3153-1-ND" x="32.2" y="28" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CY7C65634-48AXCT" x="32.2" y="28" size="1.778" layer="27" rot="R90" display="off"/>

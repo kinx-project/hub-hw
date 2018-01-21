@@ -20,10 +20,10 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -3175,13 +3175,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="30.996" y="34.976" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="33.234" y="35.564" size="1.27" layer="26" rot="MR180"/>
 </element>
-<element name="EC1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CPOL-RADIAL-2.5MM-6.5MM" package3d_urn="urn:adsk.eagle:package:37415/1" value="10uF" x="28.392" y="39.132">
+<element name="EC1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CPOL-RADIAL-2.5MM-6.5MM" package3d_urn="urn:adsk.eagle:package:37415/1" value="10uF" x="28.392" y="39.132" smashed="yes">
 <attribute name="DIGIKEY" value="493-16013-1-ND" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="nichicon" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="UST1H100MDD1TE" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
 <attribute name="OC_MOUSER" value="647-UST1H100MDD1TE" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
 <attribute name="PROD_ID" value="CAP-08439" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100uF" x="28.392" y="39.132" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="28.392" y="43.303" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C2" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF" x="31.7" y="32.1" smashed="yes" rot="MR0">
 <attribute name="DIGIKEY" value="399-1284-1-ND" x="31.7" y="32.1" size="1.778" layer="28" rot="MR0" display="off"/>

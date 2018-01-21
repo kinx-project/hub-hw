@@ -16862,10 +16862,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="440054-7"/>
 <attribute name="OC_MOUSER" value="571-440054-7"/>
 </part>
-<part name="U$1" library="CY7C65634-48AXCT" deviceset="CY7C65634-48AXCT" device="">
-<attribute name="DIGIKEY" value="428-3153-1-ND"/>
-<attribute name="MPN" value="CY7C65634-48AXCT"/>
-<attribute name="OC_MOUSER" value="727-CY7C65634-48AXCT"/>
+<part name="U$1" library="CY7C65634-48AXCT" deviceset="CY7C65634-48AXCT" device="" value="CY7C65632">
+<attribute name="DIGIKEY" value="428-3155-1-ND"/>
+<attribute name="MPN" value="CY7C65632-48AXCT"/>
+<attribute name="OC_MOUSER" value="727-CY7C65632-48AXCT"/>
 </part>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10K">
@@ -16896,12 +16896,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_MOUSER" value="667-ERJ-6ENF6490V"/>
 </part>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18P">
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18pF">
 <attribute name="DIGIKEY" value="1276-1089-1-ND"/>
 <attribute name="MPN" value="CL10C180JB8NNNC"/>
 <attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC"/>
 </part>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18P">
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18pF">
 <attribute name="DIGIKEY" value="1276-1089-1-ND"/>
 <attribute name="MPN" value="CL10C180JB8NNNC"/>
 <attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC"/>
@@ -16942,7 +16942,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="TSUP1" library="sn65220_40" deviceset="SN65220" device="DBV">
+<part name="TSUP1" library="sn65220_40" deviceset="SN65220" device="DBV" value="SN65220">
 <attribute name="DIGIKEY" value="296-9694-1-ND"/>
 <attribute name="MPN" value="SN65220DBVR"/>
 <attribute name="OC_MOUSER" value="595-SN65220DBVR"/>
@@ -16966,7 +16966,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="BLM21PG221SN1D"/>
 <attribute name="OC_MOUSER" value="81-BLM21P221SG"/>
 </part>
-<part name="TSUP2" library="sn65220_40" deviceset="SN65220" device="DBV">
+<part name="TSUP2" library="sn65220_40" deviceset="SN65220" device="DBV" value="SN65220">
 <attribute name="DIGIKEY" value="296-9694-1-ND"/>
 <attribute name="MPN" value="SN65220DBVR"/>
 <attribute name="OC_MOUSER" value="595-SN65220DBVR"/>
@@ -17022,7 +17022,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U1" library="national-semi" deviceset="LM3526-L" device="">
+<part name="U1" library="national-semi" deviceset="LM3526-L" device="" value="LM3526">
 <attribute name="DIGIKEY" value="LM3526MX-L/NOPBCT-ND"/>
 <attribute name="MPN" value="LM3526MX-L/NOPB"/>
 <attribute name="OC_MOUSER" value="926-LM3526MX-L/NOPB"/>
@@ -17097,7 +17097,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="BLM21PG221SN1D"/>
 <attribute name="OC_MOUSER" value="81-BLM21P221SG"/>
 </part>
-<part name="TSUP4" library="sn65220_40" deviceset="SN65220" device="DBV">
+<part name="TSUP4" library="sn65220_40" deviceset="SN65220" device="DBV" value="SN65220">
 <attribute name="DIGIKEY" value="296-9694-1-ND"/>
 <attribute name="MPN" value="SN65220DBVR"/>
 <attribute name="OC_MOUSER" value="595-SN65220DBVR"/>
@@ -17121,7 +17121,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="BLM21PG221SN1D"/>
 <attribute name="OC_MOUSER" value="81-BLM21P221SG"/>
 </part>
-<part name="TSUP5" library="sn65220_40" deviceset="SN65220" device="DBV">
+<part name="TSUP5" library="sn65220_40" deviceset="SN65220" device="DBV" value="SN65220">
 <attribute name="DIGIKEY" value="296-9694-1-ND"/>
 <attribute name="MPN" value="SN65220DBVR"/>
 <attribute name="OC_MOUSER" value="595-SN65220DBVR"/>

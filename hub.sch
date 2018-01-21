@@ -17053,13 +17053,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 <attribute name="OC_MOUSER" value="603-RC0805FR-0710KL"/>
 </part>
-<part name="TSUP3" library="sn65220_40" deviceset="SN65220" device="DBV">
-<attribute name="DIGIKEY" value="296-9694-1-ND"/>
-<attribute name="MPN" value="SN65220DBVR"/>
-<attribute name="OC_MOUSER" value="595-SN65220DBVR"/>
-</part>
-<part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LB1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220">
 <attribute name="DIGIKEY" value="490-1054-1-ND"/>
@@ -17364,13 +17357,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DIGIKEY" x="-12.7" y="-71.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="-12.7" y="-71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TSUP3" gate="G$1" x="45.72" y="53.34" rot="R90">
-<attribute name="DIGIKEY" x="45.72" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="45.72" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="OC_MOUSER" x="45.72" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="SUPPLY22" gate="GND" x="48.26" y="40.64"/>
-<instance part="SUPPLY23" gate="GND" x="43.18" y="40.64"/>
 <instance part="SUPPLY24" gate="GND" x="38.1" y="73.66"/>
 <instance part="LB1" gate="G$1" x="63.5" y="73.66">
 <attribute name="MPN" x="63.5" y="73.66" size="1.778" layer="96" display="off"/>
@@ -17636,14 +17622,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="TSUP3" gate="G$1" pin="GND@2"/>
-<pinref part="SUPPLY22" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="TSUP3" gate="G$1" pin="GND@1"/>
-<pinref part="SUPPLY23" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="SELFPWR"/>
 <wire x1="12.7" y1="30.48" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
 <label x="12.7" y="33.02" size="1.778" layer="95" rot="R90"/>
@@ -17710,12 +17688,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-40.64" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TSUP3" gate="G$1" pin="B"/>
-<wire x1="48.26" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-<label x="53.34" y="63.5" size="1.778" layer="95"/>
+<label x="48.26" y="73.66" size="1.778" layer="95" rot="R270"/>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="48.26" y1="81.28" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
-<junction x="48.26" y="63.5"/>
 </segment>
 </net>
 <net name="D0_P" class="1">
@@ -17725,12 +17700,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-40.64" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TSUP3" gate="G$1" pin="A"/>
-<wire x1="43.18" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
-<label x="33.02" y="63.5" size="1.778" layer="95"/>
+<label x="43.18" y="73.66" size="1.778" layer="95" rot="R270"/>
 <pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="43.18" y1="81.28" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<junction x="43.18" y="63.5"/>
 </segment>
 </net>
 <net name="D1_N" class="1">

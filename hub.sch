@@ -18442,14 +18442,14 @@ package type P</description>
 </part>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18pF">
-<attribute name="DIGIKEY" value="1276-1089-1-ND"/>
-<attribute name="MPN" value="CL10C180JB8NNNC"/>
-<attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC"/>
+<attribute name="DIGIKEY" value="1276-1107-1-ND"/>
+<attribute name="MPN" value="CL21C180JBANNNC"/>
+<attribute name="OC_MOUSER" value="77-VJ0805A180GXACBC"/>
 </part>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18pF">
-<attribute name="DIGIKEY" value="1276-1089-1-ND"/>
-<attribute name="MPN" value="CL10C180JB8NNNC"/>
-<attribute name="OC_MOUSER" value="77-VJ0603A180JXACBC"/>
+<attribute name="DIGIKEY" value="1276-1107-1-ND"/>
+<attribute name="MPN" value="CL21C180JBANNNC"/>
+<attribute name="OC_MOUSER" value="77-VJ0805A180GXACBC"/>
 </part>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>

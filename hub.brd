@@ -3132,9 +3132,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="29.534" y="16.676" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="R3" library="rcl" package="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="650R 1%" x="39.31" y="31.306" smashed="yes" rot="MR0">
-<attribute name="DIGIKEY" value="P649HCT-ND" x="39.31" y="31.306" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="ERJ-6ENF6490V" x="39.31" y="31.306" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_MOUSER" value="667-ERJ-6ENF6490V" x="39.31" y="31.306" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY" value="311-649CRCT-ND" x="39.31" y="31.306" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0805FR-07649RL" x="39.31" y="31.306" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_MOUSER" value="603-RC0805FR-07649RL" x="39.31" y="31.306" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="41.52" y="31.934" size="1.27" layer="26" rot="MR180"/>
 </element>
 <element name="C14" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18pF" x="35.943" y="34.182" smashed="yes">

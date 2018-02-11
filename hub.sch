@@ -18436,9 +18436,9 @@ package type P</description>
 </part>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R3" library="rcl" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="650R 1%">
-<attribute name="DIGIKEY" value="P649HCT-ND"/>
-<attribute name="MPN" value="ERJ-6ENF6490V"/>
-<attribute name="OC_MOUSER" value="667-ERJ-6ENF6490V"/>
+<attribute name="DIGIKEY" value="311-649CRCT-ND"/>
+<attribute name="MPN" value="RC0805FR-07649RL"/>
+<attribute name="OC_MOUSER" value="603-RC0805FR-07649RL"/>
 </part>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="18pF">

@@ -9514,7 +9514,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <rectangle x1="-0.25" y1="0.8" x2="0.25" y2="1.4" layer="51"/>
 <rectangle x1="-1.2" y1="0.8" x2="-0.7" y2="1.4" layer="51"/>
 <wire x1="-1.22" y1="0.49" x2="-1.22" y2="-0.52" width="0.127" layer="21"/>
-<text x="-1.08" y="-0.35" size="0.7" layer="21">SADI</text>
+<text x="-1.08" y="-0.35" size="0.7" layer="21" rot="SR0">SADI</text>
 </package>
 </packages>
 <symbols>
@@ -17906,7 +17906,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="microchip" urn="urn:adsk.eagle:library:294">
+<library name="microchip">
 <description>&lt;b&gt;Microchip PIC Microcontrollers and other Devices&lt;/b&gt;&lt;p&gt;
 Based on the following sources :
 &lt;ul&gt;
@@ -17937,20 +17937,20 @@ package type P</description>
 <text x="-5.2578" y="-2.54" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="7.239" y="-2.54" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
-<package name="SO-08" urn="urn:adsk.eagle:footprint:20622/1" library_version="2">
+<package name="SO-08" urn="urn:adsk.eagle:footprint:20622/1" locally_modified="yes">
 <description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
 150-mil body, package type SN</description>
 <wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
 <wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
 <wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
 <wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
 <smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
@@ -18128,7 +18128,7 @@ package type P</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="24C*" urn="urn:adsk.eagle:component:20905/4" prefix="IC" library_version="2">
+<deviceset name="24C*" urn="urn:adsk.eagle:component:20905/4" locally_modified="yes" prefix="IC">
 <description>Serial &lt;B&gt;EEPROM&lt;/B&gt;&lt;p&gt;
 1 K/2 K/4 K</description>
 <gates>
@@ -18693,7 +18693,7 @@ package type P</description>
 </part>
 <part name="+3V3_2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3_3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="IC2" library="microchip" library_urn="urn:adsk.eagle:library:294" deviceset="24C*" device="SN" package3d_urn="urn:adsk.eagle:package:20804/2" technology="02C">
+<part name="IC2" library="microchip" deviceset="24C*" device="SN" package3d_urn="urn:adsk.eagle:package:20804/2" technology="02C">
 <attribute name="DIGIKEY" value="24C02C/SN-ND"/>
 </part>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>

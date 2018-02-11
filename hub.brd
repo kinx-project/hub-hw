@@ -1605,7 +1605,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="-1.423" y1="-0.781" x2="-1.423" y2="0.781" width="0.1524" layer="21"/>
 <wire x1="-1.423" y1="0.781" x2="1.422" y2="0.781" width="0.1524" layer="51"/>
 <wire x1="1.422" y1="0.781" x2="1.422" y2="-0.781" width="0.1524" layer="21"/>
-<circle x="-1.15" y="-0.5" radius="0.1" width="0" layer="21"/>
 <smd name="1" x="-0.95" y="-1.15" dx="0.6" dy="0.9" layer="1"/>
 <smd name="2" x="0" y="-1.15" dx="0.6" dy="0.9" layer="1"/>
 <smd name="3" x="0.95" y="-1.15" dx="0.6" dy="0.9" layer="1"/>
@@ -1620,6 +1619,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <rectangle x1="0.7" y1="0.8" x2="1.2" y2="1.4" layer="51"/>
 <rectangle x1="-0.25" y1="0.8" x2="0.25" y2="1.4" layer="51"/>
 <rectangle x1="-1.2" y1="0.8" x2="-0.7" y2="1.4" layer="51"/>
+<wire x1="-1.22" y1="0.49" x2="-1.22" y2="-0.52" width="0.127" layer="21"/>
+<text x="-1.08" y="-0.35" size="0.7" layer="21">SADI</text>
 </package>
 </packages>
 </library>

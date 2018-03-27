@@ -155,7 +155,7 @@
 <dimension x1="33.655" y1="7.62" x2="29.845" y2="7.62" x3="31.75" y3="5.588" textsize="1.778" layer="47" dtype="diameter" unit="inch" visible="yes"/>
 <dimension x1="31.75" y1="7.62" x2="64.008" y2="7.366" x3="47.98194375" y3="20.5666" textsize="1.778" layer="47" unit="inch" visible="yes"/>
 <dimension x1="31.75" y1="7.62" x2="22.86" y2="0" x3="22.606" y3="3.81" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
-<text x="1.9" y="47.1" size="1.778" layer="25">kinX hub v2018-02-11</text>
+<text x="1.9" y="47.1" size="1.778" layer="25">kinX hub v2018-03-27</text>
 <text x="1.9" y="43.4" size="1.778" layer="25">USB 2.0 High Speed</text>
 <text x="2" y="34.4" size="1.778" layer="25">Michael Stapelberg</text>
 </plain>
@@ -3438,7 +3438,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="27.7" y="21.4" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="27.7" y="21.4" size="1.778" layer="27" display="off"/>
 <attribute name="OC_MOUSER" value="603-RC0805FR-0710KL" x="27.7" y="21.4" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="25.73" y="22.66" size="1.27" layer="27"/>
+<attribute name="VALUE" x="25.73" y="22.66" size="1.27" layer="25"/>
 </element>
 </elements>
 <signals>

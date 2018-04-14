@@ -3162,7 +3162,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="44.9931" y="38.06383125" size="2.07001875" layer="25" rot="R90"/>
 </element>
 <element name="C19" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="62" y="32.2" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="62" y="32.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="62" y="32.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="62" y="32.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="62" y="32.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="63.87" y="34.44" size="1.27" layer="25" rot="R180"/>
@@ -3182,7 +3182,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_MOUSER" value="81-BLM21P221SG" x="62.877" y="28.718" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C16" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="47.608" y="14.741" smashed="yes">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="47.608" y="14.741" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="47.608" y="14.741" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="47.608" y="14.741" size="1.778" layer="27" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="47.608" y="14.741" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.838" y="12.301" size="1.27" layer="25"/>
@@ -3200,7 +3200,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="51.528" y="34.097" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="C20" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="58.559" y="28.59" smashed="yes">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="58.559" y="28.59" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="58.559" y="28.59" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="58.559" y="28.59" size="1.778" layer="27" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="58.559" y="28.59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="56.789" y="29.85" size="1.27" layer="25"/>
@@ -3226,7 +3226,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="41.165" y="30.576" size="1.016" layer="25" ratio="10"/>
 </element>
 <element name="C1" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="30.996" y="34.976" smashed="yes" rot="MR0">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="30.996" y="34.976" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="30.996" y="34.976" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="30.996" y="34.976" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="30.996" y="34.976" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="33.234" y="35.564" size="1.27" layer="26" rot="MR180"/>
@@ -3247,7 +3247,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="33.93" y="32.74" size="1.27" layer="26" rot="MR180"/>
 </element>
 <element name="C4" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="37.252" y="25.2" smashed="yes" rot="MR180">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="37.252" y="25.2" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="37.252" y="25.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="37.252" y="25.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="37.252" y="25.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="39.382" y="25.74" size="1.27" layer="26" rot="MR180"/>
@@ -3259,25 +3259,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="39.53" y="29.94" size="1.27" layer="26" rot="MR180"/>
 </element>
 <element name="C8" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="31.7" y="29" smashed="yes" rot="MR0">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="31.7" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="31.7" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="31.7" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="31.7" y="29" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="33.57" y="29.96" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="C9" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="26.736" y="32.354" smashed="yes" rot="MR180">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="26.736" y="32.354" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="26.736" y="32.354" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="26.736" y="32.354" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="26.736" y="32.354" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="23.934" y="31.806" size="1.27" layer="26" rot="MR0"/>
 </element>
 <element name="C10" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="26.102" y="26.208" smashed="yes" rot="MR90">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="26.102" y="26.208" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="26.102" y="26.208" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="26.102" y="26.208" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="26.102" y="26.208" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="28.614" y="29.106" size="1.27" layer="26" rot="MR270"/>
 </element>
 <element name="C11" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="33.818" y="19.564" smashed="yes" rot="MR270">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="33.818" y="19.564" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="33.818" y="19.564" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="33.818" y="19.564" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="33.818" y="19.564" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="37.058" y="21.634" size="1.27" layer="26" rot="MR270"/>
@@ -3289,7 +3289,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="53.1775" y="2.7825" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="C17" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="61.342" y="2.888" smashed="yes" rot="R180">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="61.342" y="2.888" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="61.342" y="2.888" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="61.342" y="2.888" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="61.342" y="2.888" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="63.712" y="5.228" size="1.27" layer="25" rot="R180"/>
@@ -3325,7 +3325,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="OC_MOUSER" value="81-BLM21P221SG" x="47.5" y="16.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C12" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="27.864" y="19.304" smashed="yes" rot="MR0">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="27.864" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="27.864" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="27.864" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="27.864" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="24.934" y="18.764" size="1.27" layer="26" rot="MR0"/>
@@ -3343,7 +3343,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="6.468" y="-1.8754" size="1.27" layer="27"/>
 </element>
 <element name="C21" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="19.6" y="8.556" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="19.6" y="8.556" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="19.6" y="8.556" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="19.6" y="8.556" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="19.6" y="8.556" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.44" y="6.586" size="1.27" layer="25" rot="R90"/>
@@ -3370,7 +3370,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="12.836" y="23.624" size="1.016" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="C22" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="19.588" y="2.742" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="19.588" y="2.742" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="19.588" y="2.742" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="19.588" y="2.742" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="19.588" y="2.742" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.428" y="1.056" size="1.27" layer="25" rot="R90"/>
@@ -3429,7 +3429,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="33.73" y="14.04" size="1.27" layer="26" rot="MR180"/>
 </element>
 <element name="C6" library="rcl" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF" x="43.1" y="13.9" smashed="yes" rot="MR270">
-<attribute name="DIGIKEY" value="490-1666-1-ND" x="43.1" y="13.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND" x="43.1" y="13.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L" x="43.1" y="13.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L" x="43.1" y="13.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="46.14" y="15.17" size="1.27" layer="26" rot="MR270"/>

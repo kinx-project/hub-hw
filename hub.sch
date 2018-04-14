@@ -18460,7 +18460,7 @@ package type P</description>
 </part>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18476,7 +18476,7 @@ package type P</description>
 <attribute name="OC_MOUSER" value="81-BLM21P221SG"/>
 </part>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18496,7 +18496,7 @@ package type P</description>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18519,7 +18519,7 @@ package type P</description>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18536,7 +18536,7 @@ package type P</description>
 <attribute name="OC_MOUSER" value="80-C0805C105K4R"/>
 </part>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18546,23 +18546,23 @@ package type P</description>
 <attribute name="OC_MOUSER" value="80-C0805C105K4R"/>
 </part>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18573,7 +18573,7 @@ package type P</description>
 <attribute name="OC_MOUSER" value="926-LM3526MX-L/NOPB"/>
 </part>
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18607,7 +18607,7 @@ package type P</description>
 <part name="+3V3_1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3_4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18625,7 +18625,7 @@ package type P</description>
 </part>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18649,7 +18649,7 @@ package type P</description>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>
@@ -18705,7 +18705,7 @@ package type P</description>
 <part name="+3V3_5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3_6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF">
-<attribute name="DIGIKEY" value="490-1666-1-ND"/>
+<attribute name="DIGIKEY" value="732-8026-1-ND"/>
 <attribute name="MPN" value="GRM21BR71H104KA01L"/>
 <attribute name="OC_MOUSER" value="81-GRM40X104K50L"/>
 </part>

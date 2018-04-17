@@ -13,7 +13,8 @@ The design has been created with the following resources:
 * [CY4607M (CY7C65632-48AXCT devboard) schematic and BOM](http://www.cypress.com/documentation/other-resources/reduced-bom-schematic-cy7c65642-family-hx2vl-usb-20-hub-controller)
 * [Example schematic for the QFN28 version](http://www.cypress.com/file/117521/download)
 
-TODO: link to oshpark project
+You can order this PCB at [OSH Park](https://oshpark.com/shared_projects/0aJAMwpd).
+
 TODO: link to digikey shared BOM
 
 ## See also

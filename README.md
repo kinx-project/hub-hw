@@ -15,7 +15,7 @@ The design has been created with the following resources:
 
 You can order this PCB at [OSH Park](https://oshpark.com/shared_projects/0aJAMwpd).
 
-TODO: link to digikey shared BOM
+You can order the components at [Digi-Key](http://www.digikey.ch/short/jzftdj).
 
 ## See also
 

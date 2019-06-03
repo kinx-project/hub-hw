@@ -15,7 +15,7 @@ The design has been created with the following resources:
 
 You can order this PCB at [OSH Park](https://oshpark.com/shared_projects/0aJAMwpd).
 
-You can order the components at [Digi-Key](http://www.digikey.ch/short/jzftdj).
+You can order the components at [Digi-Key](https://www.digikey.ch/short/pm8417).
 
 ## See also
 
